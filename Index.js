@@ -1,12 +1,16 @@
-var olamundo= "Hello World" 
+{let a = 10;
+const b = "10";
 
-console.log(olamundo);
-console.log(olamundo);
-console.log(olamundo);
-console.log(olamundo);
+console.log(a === b);}
+/* = Atribuição
+== Comparação de valores
+=== Comparação de valor e igualdade*/
 
-// Aqui eu consigo fazer um comentario na linha
-
-/* aqui eu consigo
-fazer um comentario
-em bloco*/
+let cor = "verde";
+if (cor === "verde") {
+    console.log("siga");
+} else if (cor === "amarelo") {
+    console.log("atenção");
+} else if (cor === "vermelho"){
+    console.log("pare");
+}
