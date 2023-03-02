@@ -1,6 +1,5 @@
-let n = 7;
-
-for (let i = 0; i <= 10; i++) { 
-    console.log(`${i} X ${n} = ${i*n}`)
+let calc = (x1, x2, operator) =>{
+    return eval (`${x1}  ${operator} ${x2}`);
 }
-// console.log(i + " x " + n + " = " + (i * n)); (essa linha é equivalente a anterior)
+let resultado = calc (1, 2, "*");
+console.log(resultado);
