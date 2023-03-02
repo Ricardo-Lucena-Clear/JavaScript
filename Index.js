@@ -1,16 +1,6 @@
-{let a = 10;
-const b = "10";
+let n = 7;
 
-console.log(a === b);}
-/* = Atribuição
-== Comparação de valores
-=== Comparação de valor e igualdade*/
-
-let cor = "verde";
-if (cor === "verde") {
-    console.log("siga");
-} else if (cor === "amarelo") {
-    console.log("atenção");
-} else if (cor === "vermelho"){
-    console.log("pare");
+for (let i = 0; i <= 10; i++) { 
+    console.log(`${i} X ${n} = ${i*n}`)
 }
+// console.log(i + " x " + n + " = " + (i * n)); (essa linha é equivalente a anterior)
