@@ -1,13 +1,11 @@
-        let cor = "azul";
-    switch (cor) {
-    case "verde":
-        console.log("siga");
-        break ;
-    case "amarelo":
-        console.log("pare");
-        break;
-        default:
-            console.log("não sei");
-
+class celular {
+    constructor(){
+        this.cor = "prata";
     }
-    //se mudar o arquivo lembrar de mudar o nome do arquivo na tag
+    ligar (){
+        console.log("uma ligação");
+        return "ligando";
+    }
+}
+let objeto = new celular();
+console.log(objeto);
