@@ -1,4 +1,12 @@
-let carros = ["palio98", "toro", "uno", 10, true, new Date(), function(){}];
-carros.forEach(function(value, index){
-    console.log(index, value);
-});
+let celular = function (){
+
+    this.cor = "prata";
+
+    this.ligar = function()
+   {
+        console.log("uma ligação");
+        return "ligando";
+}
+}
+let objeto = new celular();
+console.log(objeto.ligar());
